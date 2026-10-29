@@ -53,7 +53,7 @@ public let mageVLPlugin = GaeaPluginDefinition(
     version: "0.1.0",
     minGaea: "0.6.0",
     team: "CFZS6RXUCP",
-    repo: "https://github.com/xocialize/gaea-plugin-mage-vl",
+    repo: "https://github.com/xocialize-code/gaea-plugin-mage-vl",
     title: "Mage-VL",
     summary: "Microsoft's Mage-VL 4B (Apache-2.0) on mage-vl-swift: answers questions about an image, int8. Gaea's image "
         + "normalizer asks it for captions, alt text and tags (image.describe).",

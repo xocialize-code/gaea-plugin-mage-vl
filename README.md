@@ -1,11 +1,11 @@
 # gaea-plugin-mage-vl
 
-Image understanding for [Gaea](https://github.com/xocialize/gaea): Microsoft's Mage-VL 4B (`microsoft/Mage-VL`,
+Image understanding for [Gaea](https://github.com/xocialize-code/gaea): Microsoft's Mage-VL 4B (`microsoft/Mage-VL`,
 Apache-2.0) on [mage-vl-swift](https://github.com/xocialize/mage-vl-swift), serving MES `image.describe`. Add it by its
 repo URL:
 
 ```bash
-gaea plugins add https://github.com/xocialize/gaea-plugin-mage-vl
+gaea plugins add https://github.com/xocialize-code/gaea-plugin-mage-vl
 ```
 
 ## What it does
@@ -40,9 +40,9 @@ swift build -c release --product mage-vl-inproc && scripts/golden.sh <out-dir>
 `golden.sh` describes three photos (two fixtures and a DIV2K validation photo) with the default question and the
 normalizer's, over GPP and in-process (`mage-vl-inproc`: MLXServeEngine, the same registration and request), and
 compares the texts. `scripts/release.sh` builds, checks, notarizes with the fleet's `mlx-notary` profile and publishes
-the GitHub release; see the [demo plugin](https://github.com/xocialize/gaea-plugin-demo) for signing and CI secrets.
+the GitHub release; see the [demo plugin](https://github.com/xocialize-code/gaea-plugin-demo) for signing and CI secrets.
 
 ## Licence
 
 The plugin is Apache-2.0 (Gaea G-21). Mage-VL's weights and mage-vl-swift's port are Apache-2.0. The fixture photos
-come from [gaea-plugin-forge](https://github.com/xocialize/gaea-plugin-forge).
+come from [gaea-plugin-forge](https://github.com/xocialize-code/gaea-plugin-forge).
