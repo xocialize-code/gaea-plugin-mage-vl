@@ -1,0 +1,2 @@
+Describe this image. Reply with JSON only, no other text:
+{"caption": "one sentence: the subject, the setting and the style", "alt_text": "a short description for a screen reader, under 125 characters", "tags": ["5 to 12 lowercase keywords: subjects, objects, setting, style, mood, main colours"]}
