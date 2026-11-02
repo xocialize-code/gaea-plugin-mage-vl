@@ -50,7 +50,7 @@ let notes = "Image understanding: captions, alt text, tags and visual questions.
 
 public let mageVLPlugin = GaeaPluginDefinition(
     id: "com.xocialize.gaea.mage-vl",
-    version: "0.1.0",
+    version: "0.1.1",
     minGaea: "0.6.0",
     team: "CFZS6RXUCP",
     repo: "https://github.com/xocialize-code/gaea-plugin-mage-vl",
